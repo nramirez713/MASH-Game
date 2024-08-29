@@ -17,20 +17,20 @@
     <p class="description">Fill in the blanks to make one sentence.</p>
     <form action="" method="post" id="mash">
       <div id="answers" class="hide">
-        <p>I live in a <span id="answer_1"></span> with a <span id="answer_3"></span> and my job is a <span id="answer_2"></span>.
+        <p>I live in a <span id="place"></span> with a <span id="animal"></span> and my job is a <span id="career"></span>.
       </div>
       <div class="bucket">
         <div class="choice-bucket">
           <h4 class="highlight">Where do you live?</h4>
-          <input name="answer_1[]" type="text">
+          <input name="place[]" type="text">
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">What is your career?</h4>
-          <input name="answer_2[]"type="text">
+          <input name="career[]"type="text">
         </div>
         <div class="choice-bucket">
           <h4 class="highlight">What animal is your pet?</h4>
-          <input name="answer_3[]"type="text">
+          <input name="animal[]"type="text">
         </div>
       </div>
       <button onclick="generate_sentence()">Make a sentence!</button>
