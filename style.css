@@ -1,7 +1,7 @@
 /* Body styling */
 body {
   background: #713e94;
-  color: #93e662;
+  color: #000000;
   font-family: Helvetica, Arial;
   font-size: 27px;
   font-weight: 300;
@@ -15,7 +15,7 @@ body {
 /* Heading Styles */
 h1 {
   font-size: 60px;
-  color: #fff;
+  color: #000000;
   text-align: center;
 }
 
@@ -32,7 +32,7 @@ h1 {
   background: transparent;
   border: 3px solid #fff;
   border-radius: 6px;
-  color: #fff;
+  color: #000000;
   cursor: pointer; 
   display: block;
   font-size: 20px;
