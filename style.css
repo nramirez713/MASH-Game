@@ -39,11 +39,20 @@ h1 {
   font-weight: bold;  
   margin: 0 auto 60px;
   padding: 1em 2em; 
-  text-align: center; 
-  hover { 
+  text-align: center;
+}
+
+<style> 
+  button-submit { 
+    color: black; 
+  } 
+   
+  button-submit:hover { 
     color: blue; 
   } 
-}
+</style> 
+ 
+<button-submit href="#">This text will turn blue on mouseover.</button-submit>
 
 .bucket {
   display: inline-block;
