@@ -29,8 +29,8 @@ h1 {
 
 /* Submit Button, Columns, Questions, and Inputs */
 .button-submit {
-  background: 70% transparent;
-  border: 3px solid #fff;
+  background: transparent;
+  border: 3px solid #000000;
   border-radius: 6px;
   color: #000000;
   cursor: pointer; 
@@ -40,6 +40,17 @@ h1 {
   margin: 0 auto 60px;
   padding: 1em 2em; 
   text-align: center; 
+  <style> 
+  a { 
+    color: black; 
+  } 
+   
+  a:hover { 
+    color: blue; 
+  } 
+</style> 
+ 
+<a href="#">This text will turn blue on mouseover.</a> 
 }
 
 .bucket {
