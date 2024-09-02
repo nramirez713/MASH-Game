@@ -43,8 +43,7 @@ h1 {
 }
 
 .button-submit:hover {
-  background-color: #000000;
-  background: transparent;
+  background-color: #000000 transparent;
 
 }
 
