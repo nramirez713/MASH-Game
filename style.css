@@ -50,11 +50,11 @@ h1 {
 
 .choice-bucket {
   display: inline-block;
+  color: #b7ffda;
   float: left;
   margin: 0;
   padding: 0;
   width: 33.333333%;
-  color: #b7ffda;
 }
 
 .choice-bucket label {
