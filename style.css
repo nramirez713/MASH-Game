@@ -2,7 +2,7 @@
 body {
   background: #76ec8a;
   color: #000000;
-  font-family: Helvetica, Arial;
+  font-family: Cursive, Arial;
   font-size: 27px;
   font-weight: 300;
   line-height: 1.65em;
@@ -14,7 +14,7 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 85px;
+  font-size: 100px;
   color: #000000;
   text-align: center;
 }
