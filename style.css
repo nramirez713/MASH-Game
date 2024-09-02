@@ -43,7 +43,8 @@ h1 {
 }
 
 .button-submit:hover {
-  background-color: #000F;
+  background-color: #000000;
+  font-style: #ffffff;
 }
 
 .bucket {
