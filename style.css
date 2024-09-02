@@ -14,7 +14,7 @@ body {
 
 /* Heading Styles */
 h1 {
-  font-size: 60px;
+  font-size: 85px;
   color: #000000;
   text-align: center;
 }
@@ -54,6 +54,7 @@ h1 {
   margin: 0;
   padding: 0;
   width: 33.333333%;
+  color: #76ec8a;
 }
 
 .choice-bucket label {
