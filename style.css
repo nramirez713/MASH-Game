@@ -57,41 +57,48 @@ h4 {
   width: 100%;
 }
 
-.choice-bucket {
+.text-bucket {
   display: inline-block;
-  float: left;
+  float: center;
   margin: 0;
   padding: 0;
-  width: 33.333333%;
+  width: 30%;
+  font-weight: bold;
+  text-align: center;
 }
 
-.choice-bucket label {
+.text-bucket label {
   font-size: 12px;
   line-height: 13px;
-  margin: 15px 4%;
+  margin: center;
 }
 
-.choice-bucket input {
-  border: 0;
+.text-bucket input {
+  border: 50;
   border-radius: 6px;
-  color: #b7ffda;
+  color: #000000;
   font-size: 18px;
-  margin: 15px 4%;
+  margin: center;
   outline: 0;
-  padding: 16px 0;
+  padding: 16px 3;
   text-indent: 20px;
   width: 92%;  
 }
 
-.choice-bucket label ~ input {
+.text-bucket label ~ input {
   margin-top: 0;
+  font-size: 18px;
+  line-height: 24px;
+  opacity: 100;
 }
 
 .highlight {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 24px;
-  margin-left: 30px;
-  opacity: .8;
+  margin: center;
+  opacity: 100;
+  font-weight: bold;
+  text-align: center;
 }
 
 
@@ -101,7 +108,7 @@ h4 {
   margin: 60px 0;
   background: #fff;
   border-radius: 6px;
-  color: #b7ffda;
+  color: #000000;
   transition: 1s linear;
 }
 
@@ -112,7 +119,7 @@ h4 {
 }
 
 #answers p span {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 

@@ -14,32 +14,32 @@
   <!-- BODY SECTION STARTS -->
   <body>
     <h1>MASH</h1>
-    <p class="description">Answer the questions with four answers to make one sentence.</p>
-    <form action="home" method="post" id="mash">
+    <p class="description">Follow the directions to make one sentence and predict your fortune.</p>
+    <form action="" method="post" id="mash">
       <div id="answers" class="hide">
-        <p>I live in a <span id="place"></span> with a <span id="animal"></span> and my job is a <span id="career"></span>.
+        <p>I live in a <span id="place"></span> with a <span id="animal"></span> and my job is a <span id="career"></span>. And you'll have <span id= playing></span> fortune.
       </div>
       <div class="bucket">
         <div class="text-bucket">
-          <h4 class="highlight">Where do you live?</h4>
-          <input name="place" type="text">
-          <input name="place" type="text">
-          <input name="place" type="text">
-          <input name="place" type="text">
+          <h4 class="highlight">Enter four types of homes.</h4>
+          <label>Enter Answer: <input name="place[]" type="text"></label>
+          <label>Enter Answer: <input name="place[]" type="text"></label>
+          <label>Enter Answer: <input name="place[]" type="text"></label>
+          <label>Enter Answer: <input name="place[]" type="text"></label>
         </div>
         <div class="text-bucket">
-          <h4 class="highlight">What is your career?</h4>
-          <input name="career" type="text">
-          <input name="career" type="text">
-          <input name="career" type="text">
-          <input name="career" type="text">
+          <h4 class="highlight">Enter four types of careers.</h4>
+          <label>Enter Answer: <input name="career[]" type="text"></label>
+          <label>Enter Answer: <input name="career[]" type="text"></label>
+          <label>Enter Answer: <input name="career[]" type="text"></label>
+          <label>Enter Answer: <input name="career[]" type="text"></label>
         </div>
         <div class="text-bucket">
-          <h4 class="highlight">What animal is your pet?</h4>
-          <input name="animal" type="text">
-          <input name="animal" type="text">
-          <input name="animal" type="text">
-          <input name="animal" type="text">
+          <h4 class="highlight">Enter four type of pets.</h4>
+          <label>Enter Answer: <input name="animal[]" type="text"></label>
+          <label>Enter Answer: <input name="animal[]" type="text"></label>
+          <label>Enter Answer: <input name="animal[]" type="text"></label>
+          <label>Enter Answer: <input name="animal[]" type="text"></label>
         </div>
       </div>
       <button type="submit" class="button-submit">Generate sentence!</button>
